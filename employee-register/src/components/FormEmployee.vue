@@ -32,6 +32,9 @@
         <div class="col-sm-4 mt-2">
           <input v-model="country" type="text" class="form-control" placeholder="country">
         </div>
+        <div class="col-sm-4 mt-2">
+          <input v-model="image" type="text" class="form-control">
+        </div>
       </div>
       <input @click="saveEmployee()" type="button" value="Save" class="btn btn-success mt-4 col-sm-3">
     </form>
