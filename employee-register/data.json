@@ -1,0 +1,33 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Brahim",
+      "lastName": "Moussi",
+      "phone": "+2126 07 27 89 13",
+      "cin": "HH6554",
+      "image": "Image",
+      "passport": "6565545435",
+      "address": "Rue 9 Hay...",
+      "city": "ifas",
+      "country": "Morocco"
+    },
+    {
+      "firstName": "Voluptatem cum rerum",
+      "lastName": "Autem molestiae et a",
+      "phone": "0607279713",
+      "cin": "HH6565",
+      "passport": "7656675665",
+      "address": "Autem iure non dolor",
+      "city": "casa",
+      "country": "Maroc",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}
