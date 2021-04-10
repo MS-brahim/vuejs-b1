@@ -49,6 +49,10 @@
       "country": "Sunt quis corporis o",
       "image": "31957572_666068083736748_2290524544496041984_n.jpg",
       "id": 25
+    },
+    {
+      "image": "../assets/logo.png",
+      "id": 26
     }
   ],
   "employers": [

@@ -18,7 +18,7 @@
                 </thead>
                 <tbody>
                     <tr v-bind:key="employee.id" v-for="employee in employees">
-                        <td><img src="../assets/logo.png" width="40px" alt=""></td>
+                        <td><v-img :src="import(`@/assets/${employee.image}`)" width="40px" :alt="employee.image"/></td>
                         <td>{{employee.firstName}}</td>
                         <td>{{employee.lastName}}</td>
                         <td>{{employee.phone}}</td>
