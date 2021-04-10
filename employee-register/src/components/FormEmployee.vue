@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    
-    <form class="card container p-4">
+    {{image}}
+    <form class="card container p-4" enctype="multipart/form-data">
       <div class="row">
         <div class="col-sm-6 mt-2">
           <input v-model="fname" type="text" class="form-control" placeholder="first name">
@@ -33,10 +33,10 @@
           <input v-model="country" type="text" class="form-control" placeholder="country">
         </div>
         <div class="col-sm-4 mt-2">
-          <input v-model="image" type="text" class="form-control">
+          <input @change="fileSelected" ref="file" type="file" class="form-control">
         </div>
       </div>
-      <input @click="saveEmployee()" type="button" value="Save" class="btn btn-success mt-4 col-sm-3">
+      <input @click="saveEmployee()" id="img" type="button" value="Save" class="btn btn-success mt-4 col-sm-3">
     </form>
   </div>
 </template>
@@ -50,12 +50,21 @@ export default {
   },
   data(){
     return {
-      employees:[]
+      employees:[],
+      file:'',
     }
   },
   methods:{
+    fileSelected(event){
+      console.log(event.target.files[0].name);
+      this.file = this.$refs.file.files[0];
+      // this.file = event.target.files[0]
+    },
     saveEmployee() {
-      // e.preventdefault();
+      
+      let fd = new FormData();
+      fd.append('file', this.file);
+
       let newEmployee = {
         firstName : this.fname,
         lastName  : this.lname,
@@ -65,8 +74,10 @@ export default {
         address   : this.address,
         city      : this.city,
         country   : this.country,
+        image     : this.$refs.file.files[0].name,
 
       }
+      console.log(fd);
       axios.post('http://localhost:3000/employees',newEmployee)
            .then(res => console.log(res.data))
     }

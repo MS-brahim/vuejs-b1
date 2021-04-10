@@ -33,12 +33,28 @@
       "city": "Magna hic veniam es",
       "country": "Occaecat error ducim",
       "id": 3
+    },
+    {
+      "image": "31957572_666068083736748_2290524544496041984_n.jpg",
+      "id": 24
+    },
+    {
+      "firstName": "Deleniti velit atque",
+      "lastName": "Eligendi non facere ",
+      "phone": "Soluta omnis ullamco",
+      "cin": "Dicta error et et co",
+      "passport": "Ad molestiae quos lo",
+      "address": "Do et quae incididun",
+      "city": "Nobis enim necessita",
+      "country": "Sunt quis corporis o",
+      "image": "31957572_666068083736748_2290524544496041984_n.jpg",
+      "id": 25
     }
   ],
   "employers": [
     {
       "email": "email@company.com",
-      "employer":"emp1",
+      "employer": "emp1",
       "phone": "0607279713",
       "cnss": "655555665",
       "address": "Laborum Sunt a sun",
