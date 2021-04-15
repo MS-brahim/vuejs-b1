@@ -13,46 +13,20 @@
       "country": "Morocco"
     },
     {
-      "firstName": "Voluptatem cum rerum",
-      "lastName": "Autem molestiae et a",
-      "phone": "0607279713",
-      "cin": "HH6565",
-      "passport": "7656675665",
-      "address": "Autem iure non dolor",
-      "city": "casa",
-      "country": "Maroc",
+      "image": "perles.png",
       "id": 2
     },
     {
-      "firstName": "Voluptatem Nisi dol",
-      "lastName": "Mollitia rerum moles",
-      "phone": "Autem repudiandae re",
-      "cin": "Cupidatat similique ",
-      "passport": "Adipisci et omnis do",
-      "address": "Quidem elit nulla q",
-      "city": "Magna hic veniam es",
-      "country": "Occaecat error ducim",
+      "firstName": "Eaque ipsum sed labo",
+      "lastName": "Ipsum autem eaque u",
+      "phone": "Voluptatem quia opti",
+      "cin": "Dicta sed sint esse",
+      "passport": "Ullam laboriosam ne",
+      "address": "Ipsa perspiciatis ",
+      "city": "Asperiores labore ni",
+      "country": "Nostrum ad illo aut ",
+      "image": "perles.png",
       "id": 3
-    },
-    {
-      "image": "31957572_666068083736748_2290524544496041984_n.jpg",
-      "id": 24
-    },
-    {
-      "firstName": "Deleniti velit atque",
-      "lastName": "Eligendi non facere ",
-      "phone": "Soluta omnis ullamco",
-      "cin": "Dicta error et et co",
-      "passport": "Ad molestiae quos lo",
-      "address": "Do et quae incididun",
-      "city": "Nobis enim necessita",
-      "country": "Sunt quis corporis o",
-      "image": "31957572_666068083736748_2290524544496041984_n.jpg",
-      "id": 25
-    },
-    {
-      "image": "../assets/logo.png",
-      "id": 26
     }
   ],
   "employers": [
@@ -63,6 +37,21 @@
       "cnss": "655555665",
       "address": "Laborum Sunt a sun",
       "id": 1
+    },
+    {
+      "employer": "Ipsum rerum magni ei",
+      "phone": "06786657556756",
+      "cnss": "76766756546565",
+      "address": "Et sit non non laud",
+      "id": 2
+    },
+    {
+      "email": "email@email.com",
+      "employer": "Ad eu omnis qui non ",
+      "phone": "098878776767-",
+      "cnss": "987876766",
+      "address": "Eu neque ut culpa ut",
+      "id": 3
     }
   ]
 }

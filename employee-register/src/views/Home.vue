@@ -1,7 +1,11 @@
 <template>
-  <div class="home">
-    <FormEmployee title="Create New Employee"/>
-    <FormEmployer title="New Employer" class="mt-4"/>
+  <div class="row">
+    <div class="col-sm-6">
+      <FormEmployee title="Create New Employee"/>
+    </div>
+    <div class="col-sm-6">
+      <FormEmployer title="New Employer"/>
+    </div>
   </div>
 </template>
 

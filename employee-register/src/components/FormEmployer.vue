@@ -1,7 +1,7 @@
 <template>
   <div>
       <h1>{{ title }}</h1>
-{{email}}
+      <!-- {{email}} -->
       <form class="card container p-4">
       <div class="row">
         <div class="col-sm-6 mt-2">
@@ -38,7 +38,7 @@ props: {
   },
   data(){
     return {
-      email:'',
+      // email:'',
       employers:[]
     }
   },
@@ -46,8 +46,8 @@ props: {
     saveEmployer() {
       // e.preventdefault();
       let newEmployer = {
-        email     : this.fname,
-        employer  : this.employers,
+        email     : this.email,
+        employer  : this.employer,
         phone     : this.phone,
         cnss      : this.cnss,
         address   : this.address,
